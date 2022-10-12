@@ -125,5 +125,8 @@ export default {
     scss: [
       '@/assets/scss/main.scss',
       ]
+  },
+  server: {
+    port: process.env.NODE_ENV === 'production' ? null : 5000,
   }
 }
