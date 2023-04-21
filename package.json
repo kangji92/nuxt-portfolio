@@ -44,6 +44,7 @@
     "nuxt-gsap-module": "^1.7.1",
     "nuxt-pdf": "^2.0.1",
     "prettier": "^2.5.1",
+    "push-dir": "^0.4.1",
     "sass-loader": "^10.2.1",
     "vue-jest": "^3.0.4"
   }

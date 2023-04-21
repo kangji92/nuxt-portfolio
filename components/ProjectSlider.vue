@@ -64,31 +64,7 @@ export default {
     data() {
         return {
             projectList: [
-                {
-                    idx: "02",
-                    id: "nhlife",
-                    name: "nhlife",
-                    mockup_wrap: "mockup-wrap",
-                    mockup_class_01: "mockup__pc nhlife",
-                    image_class: "nhlife",
-                },
-                {
-                    idx: "03",
-                    id: "inihub-micro",
-                    name: "inihub-micro",
-                    mockup_wrap: "mockup-wrap__respons",
-                    mockup_class_01: "mockup__pc inihub-micro",
-                    mockup_class_02: "mockup__mo inihub-micro",
-                    image_class: "inihub-micro",
-                },
-                {
-                    idx: "04",
-                    id: "easyauth",
-                    name: "easyauth",
-                    mockup_wrap: "mockup-wrap",
-                    mockup_class_01: "mockup__mo easyauth",
-                    image_class: "easyauth",
-                },
+             
                 {
                     idx: "05",
                     id: "kdxp",
@@ -97,14 +73,7 @@ export default {
                     mockup_class_01: "mockup__mo kdxp",
                     image_class: "kdxp",
                 },
-                {
-                    idx: "06",
-                    id: "suhyup",
-                    name: "suhyup",
-                    mockup_wrap: "mockup-wrap",
-                    mockup_class_01: "mockup__pc suhyup",
-                    image_class: "suhyup",
-                },
+             
                 {
                     idx: "07",
                     id: "mobilian",
@@ -112,25 +81,6 @@ export default {
                     mockup_wrap: "mockup-wrap",
                     mockup_class_01: "mockup__mo mobilian",
                     image_class: "mobilian",
-                },
-               
-                {
-                    idx: "08",
-                    id: "kyobo",
-                    name: "kyobo",
-                    mockup_wrap: "mockup-wrap__respons",
-                    mockup_class_01: "mockup__pc kyobo",
-                    mockup_class_02: "mockup__pad kyobo",
-                    mockup_class_03: "mockup__mo kyobo",
-                    image_class: "kyobo",
-                },
-                  {
-                    idx: "09",
-                    id: "inihub",
-                    name: "inihub",
-                    mockup_wrap: "mockup-wrap__respons",
-                    mockup_class_01: "mockup__pc inihub",
-                    mockup_class_03: "mockup__mo inihub",
                 },
               
                 {
@@ -142,55 +92,9 @@ export default {
                     mockup_class_01: "mockup__pc nexess-demo",
                     mockup_class_02: "mockup__pad nexess-demo",
                 },
-                {
-                    idx: "11",
-                    id: "multi-demo",
-                    name: "multi-demo",
-                    mockup_wrap: "mockup-wrap__respons",
-                    mockup_class_01: "mockup__pc multi-demo",
-                    mockup_class_03: "mockup__mo multi-demo",
-                    image_class: "multi-demo",
-                },
-                {
-                    idx: "12",
-                    id: "inipass",
-                    name: "inipass",
-                    image_class: "inipass",
-                    mockup_wrap: "mockup-wrap__respons",
-                    mockup_class_01: "mockup__pc inipass",
-                    mockup_class_03: "mockup__mo inipass",
-                },
-                {
-                    idx: "13",
-                    id: "lotte-event",
-                    name: "lotte-event",
-                    mockup_wrap: "",
-                    mockup_class_01: "mockup__mo lotte",
-                },
-                {
-                    idx: "14",
-                    id: "snbcorp",
-                    name: "snbcorp",
-                    mockup_wrap: "mockup-wrap__respons",
-                    mockup_class_01: "mockup__pc snbcorp",
-                    mockup_class_02: "mockup__mo snbcorp",
-                },
-                {
-                    idx: "15",
-                    id: "wellpot",
-                    name: "wellpot",
-                    mockup_wrap: "mockup-wrap__respons",
-                    mockup_class_01: "mockup__pc wellpot",
-                    mockup_class_02: "mockup__mo wellpot",
-                },
-                {
-                    idx: "16",
-                    id: "wedding",
-                    name: "wedding",
-                    sub_ttl: "Mobile Wedding Invitation",
-                    mockup_wrap: "mockup-wrap",
-                    mockup_class_01: "mockup__mo wedding",
-                },
+             
+               
+              
             ],
         }
     },
