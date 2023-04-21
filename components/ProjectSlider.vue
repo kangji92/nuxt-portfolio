@@ -65,7 +65,32 @@ export default {
         return {
             projectList: [
                 {
-                    idx: "01",
+                    idx: "02",
+                    id: "nhlife",
+                    name: "nhlife",
+                    mockup_wrap: "mockup-wrap",
+                    mockup_class_01: "mockup__pc nhlife",
+                    image_class: "nhlife",
+                },
+                {
+                    idx: "03",
+                    id: "inihub-micro",
+                    name: "inihub-micro",
+                    mockup_wrap: "mockup-wrap__respons",
+                    mockup_class_01: "mockup__pc inihub-micro",
+                    mockup_class_02: "mockup__mo inihub-micro",
+                    image_class: "inihub-micro",
+                },
+                {
+                    idx: "04",
+                    id: "easyauth",
+                    name: "easyauth",
+                    mockup_wrap: "mockup-wrap",
+                    mockup_class_01: "mockup__mo easyauth",
+                    image_class: "easyauth",
+                },
+                {
+                    idx: "05",
                     id: "kdxp",
                     name: "kdxp",
                     mockup_wrap: "mockup-wrap",
@@ -73,7 +98,7 @@ export default {
                     image_class: "kdxp",
                 },
                 {
-                    idx: "02",
+                    idx: "06",
                     id: "suhyup",
                     name: "suhyup",
                     mockup_wrap: "mockup-wrap",
@@ -81,15 +106,16 @@ export default {
                     image_class: "suhyup",
                 },
                 {
-                    idx: "03",
+                    idx: "07",
                     id: "mobilian",
                     name: "mobilian",
                     mockup_wrap: "mockup-wrap",
                     mockup_class_01: "mockup__mo mobilian",
                     image_class: "mobilian",
                 },
+               
                 {
-                    idx: "04",
+                    idx: "08",
                     id: "kyobo",
                     name: "kyobo",
                     mockup_wrap: "mockup-wrap__respons",
@@ -98,16 +124,17 @@ export default {
                     mockup_class_03: "mockup__mo kyobo",
                     image_class: "kyobo",
                 },
-                {
-                    idx: "05",
+                  {
+                    idx: "09",
                     id: "inihub",
                     name: "inihub",
                     mockup_wrap: "mockup-wrap__respons",
                     mockup_class_01: "mockup__pc inihub",
                     mockup_class_03: "mockup__mo inihub",
                 },
+              
                 {
-                    idx: "06",
+                    idx: "10",
                     id: "nexess",
                     name: "nexess",
                     info_ttl_06: "",
@@ -116,7 +143,7 @@ export default {
                     mockup_class_02: "mockup__pad nexess-demo",
                 },
                 {
-                    idx: "07",
+                    idx: "11",
                     id: "multi-demo",
                     name: "multi-demo",
                     mockup_wrap: "mockup-wrap__respons",
@@ -125,7 +152,7 @@ export default {
                     image_class: "multi-demo",
                 },
                 {
-                    idx: "08",
+                    idx: "12",
                     id: "inipass",
                     name: "inipass",
                     image_class: "inipass",
@@ -134,14 +161,14 @@ export default {
                     mockup_class_03: "mockup__mo inipass",
                 },
                 {
-                    idx: "09",
+                    idx: "13",
                     id: "lotte-event",
                     name: "lotte-event",
                     mockup_wrap: "",
                     mockup_class_01: "mockup__mo lotte",
                 },
                 {
-                    idx: "10",
+                    idx: "14",
                     id: "snbcorp",
                     name: "snbcorp",
                     mockup_wrap: "mockup-wrap__respons",
@@ -149,7 +176,7 @@ export default {
                     mockup_class_02: "mockup__mo snbcorp",
                 },
                 {
-                    idx: "11",
+                    idx: "15",
                     id: "wellpot",
                     name: "wellpot",
                     mockup_wrap: "mockup-wrap__respons",
@@ -157,7 +184,7 @@ export default {
                     mockup_class_02: "mockup__mo wellpot",
                 },
                 {
-                    idx: "12",
+                    idx: "16",
                     id: "wedding",
                     name: "wedding",
                     sub_ttl: "Mobile Wedding Invitation",

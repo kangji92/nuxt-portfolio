@@ -6,83 +6,97 @@
 
 .project-detail {
   font-family: $font-eng;
+
   .inner {
     width: 1600px;
-      margin: 0 auto;
+    margin: 0 auto;
   }
+
   h1 {
     margin-top: 80px;
     font-size: 48px;
-   
+
     padding-bottom: 20px;
     line-height: 1.25em;
   }
+
   .prj-info__sub-ttl {
     font-size: 28px;
   }
-  
- .prj-intro__info {
-  margin-top: 20%;
-  .hash-group {
-        font-size: 24px;
-        margin-bottom: 20px;
-        ul  {
-            @include display-flex {
-                justify-content: getJustify(fs);
-            }
-            li + li {
-                margin-left: 2%;
-            }
-        }
-    
-  }
-  dl {
-    dt {width: 12%;}
-  }
-}
 
-    .cont {
-        width: 100%;
-        text-align: left;
+  .prj-intro__info {
+    margin-top: 20%;
+
+    .hash-group {
+      font-size: 24px;
+      margin-bottom: 20px;
+
+      ul {
         @include display-flex {
-             justify-content: getJustify(fs);
-                 
+          justify-content: getJustify(fs);
         }
-        @include respond-to("bp-max-820") {
-            width: 100%;
-            margin-top: 10vw;
+
+        li+li {
+          margin-left: 2%;
         }
-        .col {
-            width: 50%;
-            
-        }
+      }
+
     }
 
-    .col+.col {
-      @include respond-to("bp-max-820") {
-        margin-top: 13vw;
+    dl {
+      dt {
+        width: 12%;
       }
     }
-    .contour {
-      display: block;
-      width: 64px;
-      height: 1px;
-      background: #707070;
-      margin-bottom: 24px;
+  }
+
+  .cont {
+    width: 100%;
+    text-align: left;
+
+    @include display-flex {
+      justify-content: getJustify(fs);
+
     }
-    h2 {
-      display: inline-block;
-      font-size: 30px;
-      font-weight: 600;
-      margin-bottom: 30px;
-  
-      @include respond-to("bp-max-820") {
-        font-size: 5vw;
-        margin-bottom: 5vw;
-      }
+
+    @include respond-to("bp-max-820") {
+      width: 100%;
+      margin-top: 10vw;
     }
- 
-    
+
+    .col {
+      width: 50%;
+
+    }
+  }
+
+  .col+.col {
+    @include respond-to("bp-max-820") {
+      margin-top: 13vw;
+    }
+  }
+
+  .contour {
+    display: block;
+    width: 64px;
+    height: 1px;
+    background: #707070;
+    margin-bottom: 24px;
+  }
+
+  h2 {
+    display: inline-block;
+    font-size: 30px;
+    font-weight: 600;
+    margin-bottom: 30px;
+
+    @include respond-to("bp-max-820") {
+      font-size: 5vw;
+      margin-bottom: 5vw;
+    }
+  }
+
+
   dl {
     width: 100%;
     font-size: 18px;
@@ -101,94 +115,111 @@
 
   .prj-stack {
     margin-top: 80px;
-   @include display-flex {
-                  justify-content: getJustify(fs);
-               
-                }
+
+    @include display-flex {
+      justify-content: getJustify(fs);
+
+    }
+
     .sub-ttl {
-        width: 30%;
-        height: 90px;
-        h4 {
+      width: 30%;
+      height: 90px;
+
+      h4 {
         font-size: 24px;
         text-align: left;
-        }
+      }
     }
-    
+
   }
+
   .style-guide {
     @include display-flex {
-                justify-content: getJustify(fs);
-            }
-    .palette-wrap {
-        ul {
-            @include display-flex {
-                justify-content: getJustify(fs);
-            }
-            li {
-                width: 36px;
-                height: 36px;
-                background: #000;
-            }
-            li + li {
-                margin-left: 0.5vw;
-            }
-        }
+      justify-content: getJustify(fs);
     }
-       
-  
+
+    .palette-wrap {
+      ul {
+        @include display-flex {
+          justify-content: getJustify(fs);
+        }
+
+        li {
+          width: 36px;
+          height: 36px;
+          background: #000;
+        }
+
+        li+li {
+          margin-left: 0.5vw;
+        }
+      }
+    }
+
+
   }
 
   .prj-preview {
-        width: 100%;
-        padding-bottom: 100px;
-        @include display-flex {
-            
-        }  
-        .ttl {
-            margin-top: 80px;
-            width: 100%;
-            @include display-flex {
-                justify-content: getJustify(fs);
-            }  
-            h2 {
-                
-            }
-            p {
-                padding-left: 80px;
-                font-size: 20px;
-            }
-        }
-        .visual__ttl {
-            text-align: center;
-            margin-bottom: 20px;
-        }
-        .visual-box {
-             @include display-flex {
-                  justify-content: getJustify(fs);
-               
-                }
-            .visual {
-             @include display-flex {
-                  justify-content: getJustify(fs);
-               
-                }
-            .mockup_sub {
-                position: relative;
-                width: 760px;
-                margin: 0 auto;
-            }
-        }
-      
-        }
-        .cont {
-            height: 815px;
-            margin-top: 60px;
-        }
-       
-       
+    width: 100%;
+    padding-bottom: 100px;
+
+    @include display-flex {}
+
+    .ttl {
+      margin-top: 80px;
+      width: 100%;
+
+      @include display-flex {
+        justify-content: getJustify(fs);
+      }
+
+      h2 {}
+
+      p {
+        padding-left: 80px;
+        font-size: 20px;
+      }
     }
-       
-        
-  
-  
+
+    .visual__ttl {
+      text-align: center;
+      margin-bottom: 20px;
+    }
+
+    .visual-box {
+      @include display-flex {
+        justify-content: getJustify(fs);
+
+      }
+
+      .visual {
+        @include display-flex {
+          justify-content: getJustify(fs);
+
+        }
+
+        .mockup_sub {
+          position: relative;
+          width: 760px;
+          margin: 0 auto;
+        }
+      }
+
+    }
+
+    .cont {
+      height: 815px;
+      margin-top: 60px;
+    }
+
+
+  }
+
+  .prj-wrap {
+    @include display-flex {
+      justify-content: getJustify(sb);
+    }
+  }
+
+
 }
