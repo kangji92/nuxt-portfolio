@@ -3,6 +3,10 @@
 ## Build Setup
 
 ```bash
+
+# node version
+$ nvm use 16.14.2
+
 # install dependencies
 $ npm install
 
